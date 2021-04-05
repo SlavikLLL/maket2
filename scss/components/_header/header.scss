@@ -5,6 +5,7 @@ header {
     menu {
       display: flex;
       justify-content: center;
+      margin-bottom: 110px;
     }
     li {
       list-style: none;
@@ -25,4 +26,33 @@ header {
 header .header-background {
   background-color: #d6d3d3;
 }
+header{
+  .about_us-wrapper{
+display: flex;
+padding-bottom: 115px;
+  }
+  .left-wrapper{
+    button{
+      border: 0;
+      background-color: $main-color;
+      color:white;
+      width: 225px;
+      height: 55px;
+      font-size:$font-size-lg
+    }
 
+    h1{
+      font-size:55px;
+      font-weight: bold;
+      width:60%;
+      padding-bottom: 35px;
+    }
+    p{
+      color:$main-font-color;
+      width:80%;
+      line-height: 20px;
+      font-size:$font-size-md;
+      padding-bottom: 30px;
+    }
+  }
+}
