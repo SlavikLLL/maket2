@@ -25,38 +25,4 @@ header {
 header .header-background {
   background-color: #d6d3d3;
 }
-h1 {
-  padding-top: 110px;
-  font-size: 55px;
-  color: #000000;
-  font-weight: 800;
-  padding-bottom: 40px;
-  width: 70%;
-  line-height: 50px;
-}
-.left-wrapper p {
-  color: $main-font-color;
-}
-header .text-wrapper {
-  padding-bottom: 60px;
-}
-header button {
-  border: 0px;
-  background-color: $main-color;
-  color: white;
-  font-size: 18px;
-  width: 225px;
-  height: 55px;
-}
-.right-wrapper img {
-  width: 555px;
-  height: 455px;
-}
-.about_us-wrapper {
-  display: flex;
-}
-.left-wrapper p {
-  width: 60%;
-  line-height: 17px;
-  font-size: $font-size_sm;
-}
+
