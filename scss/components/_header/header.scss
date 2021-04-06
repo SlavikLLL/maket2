@@ -3,8 +3,7 @@ header {
     background-color: #313030;
     @include transition(0.4s);
     menu {
-      display: flex;
-      justify-content: center;
+      @extend %flex-center;
       margin-bottom: 110px;
     }
     li {
@@ -36,15 +35,12 @@ padding-bottom: 115px;
       border: 0;
       background-color: $main-color;
       color:white;
-      width: 225px;
-      height: 55px;
+      @extend %button-size;
       font-size:$font-size-lg
     }
 
     h1{
-      font-size:55px;
-      font-weight: bold;
-      width:60%;
+      @extend %header_title;
       padding-bottom: 35px;
     }
     p{
@@ -55,4 +51,8 @@ padding-bottom: 115px;
       padding-bottom: 30px;
     }
   }
+}
+header menu li.active,
+header menu li:hover {
+  background-color: $main-color;
 }

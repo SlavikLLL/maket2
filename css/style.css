@@ -372,6 +372,22 @@ body {
   font-family: "Open sans", sans-serif;
 }
 
+header .left-wrapper h1 {
+  font-size: 55px;
+  font-weight: bold;
+  width: 60%;
+}
+
+main .info-wrapper .left-wrapper button, header .left-wrapper button {
+  width: 225px;
+  height: 55px;
+}
+
+header nav menu {
+  display: flex;
+  justify-content: center;
+}
+
 header nav {
   background-color: #313030;
   -o-transition: 0.4s;
@@ -381,8 +397,6 @@ header nav {
   transition: 0.4s;
 }
 header nav menu {
-  display: flex;
-  justify-content: center;
   margin-bottom: 110px;
 }
 header nav li {
@@ -410,14 +424,9 @@ header .left-wrapper button {
   border: 0;
   background-color: #ff3f40;
   color: white;
-  width: 225px;
-  height: 55px;
   font-size: 20px;
 }
 header .left-wrapper h1 {
-  font-size: 55px;
-  font-weight: bold;
-  width: 60%;
   padding-bottom: 35px;
 }
 header .left-wrapper p {
@@ -426,6 +435,11 @@ header .left-wrapper p {
   line-height: 20px;
   font-size: 16px;
   padding-bottom: 30px;
+}
+
+header menu li.active,
+header menu li:hover {
+  background-color: #ff3f40;
 }
 
 main .info-wrapper {
@@ -437,6 +451,7 @@ main .info-wrapper .left-wrapper {
 main .info-wrapper .left-wrapper h2 {
   font-size: 40px;
   font-weight: bold;
+  width: 75%;
   line-height: 45px;
   padding-bottom: 45px;
 }
@@ -451,8 +466,6 @@ main .info-wrapper .left-wrapper button {
   margin-top: 35px;
   background-color: white;
   color: red;
-  width: 225px;
-  height: 55px;
   border: 2px solid #ff3f40;
 }
 main .info-wrapper .right-wrapper {
@@ -480,7 +493,7 @@ main .info-wrapper .right-wrapper {
 .info-item h3 {
   padding-bottom: 20px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: bold;
 }
 .info-item p {
   color: #6c6a6a;

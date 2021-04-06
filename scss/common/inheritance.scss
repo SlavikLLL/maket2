@@ -1,4 +1,14 @@
-%flex{
+
+%header_title{
+    font-size:55px;
+      font-weight: bold;
+      width:60%;
+}
+%button-size{
+    width: 225px;
+  height: 55px;
+}
+%flex-center{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
