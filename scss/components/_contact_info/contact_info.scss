@@ -1,0 +1,21 @@
+.top-wrapper{
+    h2{
+        @extend %title-style;
+        padding-bottom: 25px;
+    }
+    p{
+        font-size:$font-size-sm;
+        color:$main-font-color;
+        width: 50%;
+        line-height: 20px;
+    }
+}
+.small-line-info{
+    
+        width: 110px;
+        color:$main-color;
+        position: absolute;
+        left: 134px;
+        border:0.1px solid $main-color;
+        margin-top:25px; 
+}

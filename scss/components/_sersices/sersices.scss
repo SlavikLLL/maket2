@@ -4,8 +4,7 @@ main{
         .left-wrapper{
             width: $half-width;
             h2{
-                font-size:40px;
-                font-weight:$font-weight-title;
+                @extend %title-style;
                 width: 75%;
                 line-height: 45px;
                 padding-bottom: 45px;
@@ -29,6 +28,7 @@ main{
             width:$half-width;
             display: flex;
             flex-wrap: wrap;
+            padding-bottom: 90px;
         }
 
     }
@@ -36,6 +36,7 @@ main{
 }
 .info-content-wrapper{
     display: flex;
+    border-bottom: 2px solid #ececec;
 }
 .info-item{
 width:$half-width;
