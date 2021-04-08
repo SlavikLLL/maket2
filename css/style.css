@@ -388,7 +388,7 @@ header nav menu {
   justify-content: center;
 }
 
-.top-wrapper h2, .team-wrapper .header-team-wrapper .text-wrapper-team h2, .wrapper-pic h2, main .info-wrapper .left-wrapper h2 {
+.contact-info-wrapper .top-wrapper h3, .team-wrapper .header-team-wrapper .text-wrapper-team h2, .wrapper-pic h2, main .info-wrapper .left-wrapper h2 {
   font-size: 40px;
   font-weight: bold;
 }
@@ -643,45 +643,150 @@ ul li a {
   margin-left: 9px;
 }
 
-.design {
+.subscribe-wrapper {
   display: flex;
   justify-content: center;
-  font-size: 24px;
+  padding-top: 90px;
+  background-color: #f5f0dd;
+}
+.subscribe-wrapper .sub-text h3 {
+  padding-bottom: 40px;
+  font-size: 40px;
   word-spacing: 5px;
-  padding-bottom: 15px;
+  color: white;
 }
-
-.text-subscribe {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 35px;
-}
-.text-subscribe p {
-  font-size: 12px;
-}
-
-.subscribe-button {
-  display: flex;
-  justify-content: center;
-}
-
-.top-wrapper h2 {
-  padding-bottom: 25px;
-}
-.top-wrapper p {
+.subscribe-wrapper .sub-text p {
   font-size: 12px;
   color: #6c6a6a;
-  width: 50%;
-  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+.subscribe-wrapper .sub-button {
+  padding-top: 70px;
+  text-align: center;
+}
+.subscribe-wrapper .sub-button input {
+  max-width: 450px;
+  width: 450px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border: 1px;
+  border-radius: 3%;
+  margin-right: 15px;
+}
+.subscribe-wrapper .sub-button button {
+  padding-bottom: 25px;
+  padding-top: 21px;
+  border: 1px;
+  border-radius: 3%;
+  background-color: #ff3f40;
+  color: white;
+  width: 175px;
+  font-size: 20px;
 }
 
-.small-line-info {
-  width: 110px;
-  color: #ff3f40;
+.contact-info-wrapper {
+  padding-top: 80px;
+  position: relative;
+}
+.contact-info-wrapper .top-wrapper h3 {
+  padding-bottom: 50px;
+}
+.contact-info-wrapper .top-wrapper p {
+  width: 50%;
+  font-size: 12px;
+  color: #6c6a6a;
+  line-height: 15px;
+}
+.contact-info-wrapper .small-line {
+  left: 135px;
   position: absolute;
-  left: 134px;
-  border: 0.1px solid #ff3f40;
-  margin-top: 25px;
+}
+.contact-info-wrapper .bottom-wrapper {
+  padding-top: 75px;
+  display: flex;
+}
+.contact-info-wrapper .bottom-wrapper .left-wrapper-contact .name {
+  margin-right: 30px;
+  max-width: 250px;
+  width: 250px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 1px;
+  border-radius: 6%;
+  background-color: #e5e5e5;
+}
+.contact-info-wrapper .bottom-wrapper .left-wrapper-contact .mail {
+  max-width: 250px;
+  width: 250px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 1px;
+  border-radius: 6%;
+  background-color: #e5e5e5;
+}
+.contact-info-wrapper .bottom-wrapper .left-wrapper-contact .message {
+  margin-top: 50px;
+  max-width: 535px;
+  width: 535px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #e5e5e5;
+  border: 1px;
+  border-radius: 6%;
+}
+.contact-info-wrapper .bottom-wrapper .left-wrapper-contact button {
+  max-width: 535px;
+  width: 535px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px;
+  background-color: #ff3f40;
+  color: white;
+  font: size 13px;
+  text-transform: uppercase;
+}
+.contact-info-wrapper .bottom-wrapper .right-wrapper-info {
+  max-width: 500px;
+  width: 500px;
+  margin-left: 130px;
+  padding-left: 30px;
+  border: 1px solid;
+  background-color: #2d2d2d;
+  color: #6c6a6a;
+}
+.contact-info-wrapper .bottom-wrapper .right-wrapper-info h4 {
+  padding-top: 100px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.contact-info-wrapper .bottom-wrapper .right-wrapper-info p {
+  font-size: 12px;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+.copyright-wrapper {
+  background-color: #313030;
+  color: #6c6a6a;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 40px;
+}
+.copyright-wrapper p {
+  font-size: 12px;
+  width: 86%;
+  display: flex;
+  align-items: center;
+}
+
+.social-media-pics {
+  display: flex;
+}
+
+.left-copy-wrapper {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

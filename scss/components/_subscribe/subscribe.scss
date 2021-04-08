@@ -1,20 +1,50 @@
-.design{
+.subscribe-wrapper{
     display: flex;
     justify-content: center;
-    font-size:24px;
-    word-spacing: 5px;
-    padding-bottom: 15px;
-}
-.text-subscribe{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 35px;
-    p{
-        font-size:$font-size-sm;
-        
+    padding-top:90px;
+    background-color: #f5f0dd;
+    .sub-text{
+        h3{
+            padding-bottom: 40px;
+            font-size :40px;
+            word-spacing: 5px;
+            color:white;
+
+        }
+        p{
+            font-size:$font-size-sm;
+            color:$main-font-color;
+            text-align: center;
+            color:white;
+            
+        }
     }
-}
-.subscribe-button{
-    display: flex;
-    justify-content: center;
+    .sub-button{
+        padding-top:70px;
+        text-align: center;
+        input{
+            max-width :450px;
+            width: 450px;
+            padding-bottom: 25px;
+            padding-top: 25px;
+            border: 1px;
+            border-radius: 3%;
+            margin-right:15px;
+            
+        }
+        button{
+            padding-bottom: 25px;
+            padding-top: 21px;
+            border:1px;
+            border-radius: 3%;
+            background-color: $main-color;
+            color:white;
+            width: 175px;
+            font-size:$font-size-lg;
+        }
+
+
+    }
+    
+
 }

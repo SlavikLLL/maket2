@@ -1,21 +1,101 @@
-.top-wrapper{
-    h2{
-        @extend %title-style;
-        padding-bottom: 25px;
+.contact-info-wrapper{
+    padding-top:80px;
+    position: relative;
+    .top-wrapper{
+        h3{
+            @extend %title-style;
+            padding-bottom: 50px;
+        }
+        p{
+            width: 50%;
+            font-size:$font-size-sm;
+            color:$main-font-color;
+            line-height: 15px;
+        }
     }
-    p{
-        font-size:$font-size-sm;
-        color:$main-font-color;
-        width: 50%;
-        line-height: 20px;
-    }
-}
-.small-line-info{
-    
-        width: 110px;
-        color:$main-color;
+    .small-line{
+        left: 135px;
         position: absolute;
-        left: 134px;
-        border:0.1px solid $main-color;
-        margin-top:25px; 
-}
+        
+    }
+    .bottom-wrapper{
+        padding-top: 75px;
+        display: flex;
+        .left-wrapper-contact{
+            .name{
+                margin-right:30px;
+                max-width: 250px;
+                width: 250px;
+                padding-bottom: 20px;
+            padding-top: 20px;
+            border: 1px;
+            border-radius: 6%;
+            background-color: #e5e5e5;
+            }
+            .mail{
+                max-width: 250px;
+                width: 250px;
+                padding-bottom: 20px;
+                padding-top: 20px;
+                border: 1px;
+                border-radius: 6%;
+                background-color: #e5e5e5;
+
+            }
+            .message{
+                margin-top: 50px;
+                max-width: 535px;
+                width: 535px;
+                padding-top: 60px;
+                padding-bottom: 60px;
+                background-color: #e5e5e5;
+                border: 1px;
+                border-radius: 6%;
+            }
+            button{
+                max-width: 535px;
+                width: 535px;
+                margin-top:20px;
+                padding-top:20px;
+                padding-bottom: 20px;
+                border:1px;
+                background-color: $main-color;
+                color:white;
+                font: size 13px;
+                text-transform: uppercase;
+            }
+           
+
+            }
+            .right-wrapper-info{
+                max-width: 500px;
+                width: 500px;
+                margin-left: 130px;
+                padding-left:30px;
+                
+                border: 1px solid;
+                background-color:#2d2d2d;
+                
+                color:$main-font-color;
+                h4{
+                    padding-top: 100px;
+                    text-transform: uppercase;
+                    margin-bottom: 25px;
+                    
+                    
+                }
+                p{
+                    font-size:$font-size-sm;
+                    width: 50%;
+                    padding-bottom: 20px;
+                }
+                
+                
+            }
+           
+            }
+
+        }
+
+   
+        
