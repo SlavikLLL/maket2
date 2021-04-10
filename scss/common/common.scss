@@ -8,3 +8,10 @@
 body{
     font-family: $font,sans-serif;
 }
+.line{
+    max-width: 130px;
+    border-bottom: 2px solid;
+    color: $main-color;
+    margin: 0 auto;
+    margin-top:35px;
+}

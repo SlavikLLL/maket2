@@ -1,50 +1,48 @@
-.subscribe-wrapper{
-    display: flex;
-    justify-content: center;
-    padding-top:90px;
-    background-color: #f5f0dd;
-    .sub-text{
-        h3{
-            padding-bottom: 40px;
-            font-size :40px;
-            word-spacing: 5px;
-            color:white;
-
-        }
-        p{
-            font-size:$font-size-sm;
-            color:$main-font-color;
-            text-align: center;
-            color:white;
-            
-        }
+.subscribe-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  background-color: #f5f0dd;
+  padding-bottom: 140px;
+  .sub-text {
+    h3 {
+      padding-bottom: 40px;
+      font-size: 40px;
+      word-spacing: 5px;
+      color: white;
     }
-    .sub-button{
-        padding-top:70px;
-        text-align: center;
-        input{
-            max-width :450px;
-            width: 450px;
-            padding-bottom: 25px;
-            padding-top: 25px;
-            border: 1px;
-            border-radius: 3%;
-            margin-right:15px;
-            
-        }
-        button{
-            padding-bottom: 25px;
-            padding-top: 21px;
-            border:1px;
-            border-radius: 3%;
-            background-color: $main-color;
-            color:white;
-            width: 175px;
-            font-size:$font-size-lg;
-        }
-
-
+    p {
+      font-size: $font-size-sm;
+      color: $main-font-color;
+      text-align: center;
+      color: white;
     }
-    
-
+  }
+}
+form {
+  padding-top: 70px;
+  display: flex;
+  margin-left: 160px;
+  label {
+    width: 70%;
+    input {
+      padding-bottom: 25px;
+      padding-top: 25px;
+      border: 0;
+      border-radius: 10px;
+      padding-left: 30px;
+      width: 90%;
+    }
+  }
+  button {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 10px;
+    width: 30%;
+    border: 0;
+    border-radius: 10px;
+    background-color: $main-color;
+    color: white;
+    font-size: 18px;
+  }
 }
