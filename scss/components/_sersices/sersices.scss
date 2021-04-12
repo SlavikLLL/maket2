@@ -1,6 +1,7 @@
 main {
   .info-wrapper {
     padding-top: 60px;
+    padding-bottom: 90px;
     .left-wrapper {
       width: $half-width;
       h2 {
@@ -28,13 +29,15 @@ main {
       width: $half-width;
       display: flex;
       flex-wrap: wrap;
-      padding-bottom: 90px;
+      
     }
   }
 }
 .info-content-wrapper {
   display: flex;
   border-bottom: 2px solid #ececec;
+  padding-bottom: 50px;
+  
 }
 .info-item {
   width: $half-width;

@@ -364,7 +364,6 @@ textarea {
 .container {
   max-width: 1250px;
   margin: 0 auto;
-  padding: 15px 0px;
   box-sizing: border-box;
 }
 
@@ -428,11 +427,11 @@ header nav a {
 
 header .header-background {
   background-color: #d6d3d3;
+  padding-top: 65px;
 }
 
 header .about_us-wrapper {
   display: flex;
-  padding-bottom: 115px;
 }
 header .left-wrapper {
   width: 60%;
@@ -459,8 +458,13 @@ header menu li:hover {
   background-color: #ff3f40;
 }
 
+.about_us {
+  padding-bottom: 115px;
+}
+
 main .info-wrapper {
   padding-top: 60px;
+  padding-bottom: 90px;
 }
 main .info-wrapper .left-wrapper {
   width: 50%;
@@ -487,12 +491,12 @@ main .info-wrapper .right-wrapper {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 90px;
 }
 
 .info-content-wrapper {
   display: flex;
   border-bottom: 2px solid #ececec;
+  padding-bottom: 50px;
 }
 
 .info-item {
@@ -522,7 +526,7 @@ main .info-wrapper .right-wrapper {
 .text-head {
   display: flex;
   justify-content: center;
-  padding: 20px 20px 0 20px;
+  padding-top: 20px;
   text-align: center;
 }
 .text-head p {
@@ -541,18 +545,21 @@ main .info-wrapper .right-wrapper {
 .wrapper-pic {
   padding-top: 110px;
 }
-.wrapper-pic nav menu {
+.wrapper-pic div {
+  text-decoration: none;
+}
+.wrapper-pic div ul {
   display: flex;
   margin-top: 70px;
   justify-content: center;
 }
-.wrapper-pic nav menu li {
+.wrapper-pic div ul li {
   list-style: none;
 }
-.wrapper-pic nav menu li.active a {
+.wrapper-pic div ul li.active a {
   color: #ff3f40;
 }
-.wrapper-pic nav menu a {
+.wrapper-pic div a {
   color: #4c4c4c;
   display: inline;
   text-decoration: none;
@@ -561,7 +568,7 @@ main .info-wrapper .right-wrapper {
 }
 
 .wrapper-pic li.active,
-.wrapper-pic menu a:hover {
+.wrapper-pic ul a:hover {
   color: #ff3f40;
 }
 
@@ -583,8 +590,12 @@ main .info-wrapper .right-wrapper {
   margin-top: 35px;
 }
 
+ul li:last-child {
+  padding: 0;
+}
+
 .team-wrapper {
-  padding: 140px;
+  padding: 140px 0;
 }
 .team-wrapper .header-team-wrapper .text-wrapper-team h2 {
   padding-bottom: 30px;
@@ -592,16 +603,15 @@ main .info-wrapper .right-wrapper {
 .team-wrapper .header-team-wrapper .text-wrapper-team p {
   color: #6c6a6a;
   font-size: 12px;
-  width: 25%;
+  max-width: 300px;
   line-height: 25px;
   margin-left: 10px;
 }
 
 .main-photo {
-  padding-top: 60px;
   padding-right: 60px;
-  width: 255px;
-  height: 392px;
+  width: 20%;
+  height: 390px;
 }
 
 .content-team-wrapper .lineTwo {
@@ -622,14 +632,17 @@ main .info-wrapper .right-wrapper {
 
 .content-flex-wrapper {
   display: flex;
+  padding-top: 60px;
 }
 
 .team-wrapper-content {
-  padding-top: 80px;
+  width: 80%;
 }
 
 .person-text-wrapper {
+  margin-bottom: 30px;
   margin-left: 9px;
+  margin-top: 20px;
 }
 .person-text-wrapper h3 {
   font-size: 30px;
@@ -637,7 +650,6 @@ main .info-wrapper .right-wrapper {
   margin-bottom: 25px;
 }
 .person-text-wrapper p {
-  margin-bottom: 30px;
   color: #6c6a6a;
   font-size: 13px;
   line-height: 20px;
@@ -645,11 +657,13 @@ main .info-wrapper .right-wrapper {
 }
 
 ul {
-  margin-bottom: 20px;
   display: flex;
 }
 ul li {
   list-style: none;
+}
+ul li li:last-child {
+  padding: 0;
 }
 ul li a {
   text-decoration: none;
@@ -660,6 +674,7 @@ ul li a {
 
 .social-media {
   margin-left: 9px;
+  margin-bottom: 20px;
 }
 
 .subscribe-wrapper {
@@ -669,6 +684,9 @@ ul li a {
   background-color: #f5f0dd;
   padding-bottom: 140px;
 }
+.subscribe-wrapper .sub-text {
+  padding-bottom: 70px;
+}
 .subscribe-wrapper .sub-text h3 {
   padding-bottom: 40px;
   font-size: 40px;
@@ -676,21 +694,21 @@ ul li a {
   color: white;
 }
 .subscribe-wrapper .sub-text p {
-  font-size: 12px;
+  font-size: 14px;
   color: #6c6a6a;
   text-align: center;
   color: white;
 }
 
-form {
-  padding-top: 70px;
-  display: flex;
-  margin-left: 160px;
-}
-form label {
+.subscribe-wrapper-form {
   width: 70%;
+  display: flex;
+  margin: 0 auto;
 }
-form label input {
+.subscribe-wrapper-form label {
+  width: 100%;
+}
+.subscribe-wrapper-form label input {
   padding-bottom: 25px;
   padding-top: 25px;
   border: 0;
@@ -698,11 +716,11 @@ form label input {
   padding-left: 30px;
   width: 90%;
 }
-form button {
+.subscribe-wrapper-form button {
   padding-bottom: 25px;
   padding-top: 25px;
   margin-left: 10px;
-  width: 30%;
+  width: 40%;
   border: 0;
   border-radius: 10px;
   background-color: #ff3f40;
@@ -781,11 +799,13 @@ form button {
   padding-top: 100px;
   text-transform: uppercase;
   margin-bottom: 25px;
+  color: #c9c9c9;
 }
 .contact-info-wrapper .bottom-wrapper .right-wrapper-info p {
   font-size: 12px;
   width: 50%;
   padding-bottom: 20px;
+  color: #595959;
 }
 
 .lineThree {
@@ -821,6 +841,10 @@ form button {
 
 .social-pic img {
   margin-right: 5px;
+}
+
+.social-media-pics:last-child {
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

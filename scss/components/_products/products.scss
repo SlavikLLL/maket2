@@ -1,7 +1,7 @@
 .text-head {
   display: flex;
   justify-content: center;
-  padding: 20px 20px 0 20px;
+  padding-top: 20px;
   text-align: center;
 
   p {
@@ -20,8 +20,9 @@
 
 .wrapper-pic {
   padding-top: 110px;
-  nav {
-    menu {
+  div{
+    text-decoration: none;
+    ul{
       display: flex;
       margin-top: 70px;
       justify-content: center;
@@ -33,6 +34,7 @@
           }
         }
       }
+      }
       a {
         color: #4c4c4c;
         display: inline;
@@ -41,10 +43,10 @@
         font-size: $font-size-lg;
       }
     }
-  }
+  
 }
 .wrapper-pic li.active,
-.wrapper-pic menu a:hover {
+.wrapper-pic ul a:hover {
   color: $main-color;
 }
 .content-wrapper {
@@ -64,4 +66,9 @@
   color: $main-color;
   margin: 0 auto;
   margin-top: 35px;
+}
+ul{
+  li:last-child{
+    padding: 0;
+  }
 }

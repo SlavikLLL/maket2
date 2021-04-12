@@ -2,9 +2,11 @@ header {
   nav {
     background-color: #313030;
     @include transition(0.4s);
+    
     menu {
       @extend %flex-center;
       margin-bottom: 110px;
+      
     }
     li {
       list-style: none;
@@ -24,11 +26,12 @@ header {
 }
 header .header-background {
   background-color: #d6d3d3;
+  padding-top:65px;
 }
 header {
   .about_us-wrapper {
     display: flex;
-    padding-bottom: 115px;
+    
   }
   .left-wrapper {
     width: 60%;
@@ -56,4 +59,7 @@ header {
 header menu li.active,
 header menu li:hover {
   background-color: $main-color;
+}
+.about_us{
+  padding-bottom: 115px;
 }

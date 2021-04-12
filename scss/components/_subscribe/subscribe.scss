@@ -5,6 +5,7 @@
   background-color: #f5f0dd;
   padding-bottom: 140px;
   .sub-text {
+    padding-bottom: 70px;
     h3 {
       padding-bottom: 40px;
       font-size: 40px;
@@ -12,19 +13,21 @@
       color: white;
     }
     p {
-      font-size: $font-size-sm;
+      font-size: 14px;
       color: $main-font-color;
       text-align: center;
       color: white;
     }
   }
 }
-form {
-  padding-top: 70px;
+.subscribe-wrapper-form {
+
+  width: 70%;
+  
   display: flex;
-  margin-left: 160px;
+  margin:0 auto;
   label {
-    width: 70%;
+    width: 100%;
     input {
       padding-bottom: 25px;
       padding-top: 25px;
@@ -38,7 +41,7 @@ form {
     padding-bottom: 25px;
     padding-top: 25px;
     margin-left: 10px;
-    width: 30%;
+    width: 40%;
     border: 0;
     border-radius: 10px;
     background-color: $main-color;
