@@ -379,13 +379,13 @@ body {
   margin-top: 35px;
 }
 
-header .left-wrapper h1 {
+.left-wrapper h1 {
   font-size: 55px;
   font-weight: bold;
   width: 60%;
 }
 
-main .info-wrapper .left-wrapper button, header .left-wrapper button {
+main .info-wrapper .left-wrapper button, .left-wrapper button {
   width: 33%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -401,6 +401,14 @@ header nav menu {
   font-weight: bold;
 }
 
+@media (max-width: 900px) {
+  .container {
+    max-width: 750px;
+  }
+}
+header {
+  padding-top: 45px;
+}
 header nav {
   background-color: #313030;
   -o-transition: 0.4s;
@@ -425,27 +433,28 @@ header nav a {
   text-decoration: none;
 }
 
-header .header-background {
-  background-color: #d6d3d3;
-  padding-top: 65px;
+header menu li.active,
+header menu li:hover {
+  background-color: #ff3f40;
 }
 
-header .about_us-wrapper {
+.about_us-wrapper {
   display: flex;
 }
-header .left-wrapper {
+
+.left-wrapper {
   width: 60%;
 }
-header .left-wrapper button {
+.left-wrapper button {
   border: 0;
   background-color: #ff3f40;
   color: white;
   font-size: 20px;
 }
-header .left-wrapper h1 {
+.left-wrapper h1 {
   padding-bottom: 35px;
 }
-header .left-wrapper p {
+.left-wrapper p {
   color: #6c6a6a;
   width: 80%;
   line-height: 20px;
@@ -453,13 +462,13 @@ header .left-wrapper p {
   padding-bottom: 30px;
 }
 
-header menu li.active,
-header menu li:hover {
-  background-color: #ff3f40;
-}
-
 .about_us {
   padding-bottom: 115px;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
 }
 
 main .info-wrapper {
